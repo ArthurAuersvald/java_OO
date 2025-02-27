@@ -11,7 +11,7 @@ public class EntradaDados {
 		double z;
 		
 		System.out.println("Digite seu nome");
-		x = sc.next();
+		x = sc.nextLne();
 		System.out.println("Digite sua idade");
 		y = sc.nextInt();
 		System.out.println("Digite seu saldo");
