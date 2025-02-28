@@ -10,7 +10,7 @@ public class AtribuicaoAcumulativa {
 	    
 		double conta = 50.0;
 		if (minutos > 100) {
-			conta = conta + (minutos - 100) * 2.0;
+			conta += (minutos - 100) * 2.0;
 		}
 			System.out.println("Valor da conta = R$" + conta);
 
